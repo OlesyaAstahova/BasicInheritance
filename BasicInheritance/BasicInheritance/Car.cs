@@ -35,7 +35,7 @@ namespace BasicInheritance
             }
         }
     }
-    //MiniVan "является" Car
+    //Класс MiniVan не может быть  разрешен 
     class MiniVan:Car
     {
 

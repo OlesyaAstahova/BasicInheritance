@@ -16,6 +16,8 @@ namespace BasicInheritance
             myVan.Speed = 10;
             Console.WriteLine("My van is going {0} MPH", myVan.Speed);
 
+            //Ошибка! Доступ к закрытым членам невозможен
+            
             //Создать экземпляр Car и установить максимальную скорость
             Car myCar = new Car(80);
 
