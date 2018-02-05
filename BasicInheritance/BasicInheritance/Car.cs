@@ -35,4 +35,9 @@ namespace BasicInheritance
             }
         }
     }
+    //MiniVan "является" Car
+    class MiniVan:Car
+    {
+
+    }
 }
